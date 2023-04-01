@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: linear-gradient(142deg,#2e2932, #0b0b0b);
+    font-family: "Lato", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .logo{
+    position: absolute;
+    top: 0vh;
+    left: 10vw;
+  }
+
+  .logo p{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .container{
+    border-radius: 10px;
+    padding: 0 30px;
+    max-width: 1000px;
+    text-align: center;
+  }
+
+  h3{
+    color: white;
+    font-size: 22px;
+    margin-left: 3vw;
+  }
+
+  .otpinfo{
+    width: 35vw;
+    display: flex;
+    padding: 0px 0px 0px 20px;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .code-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    margin-top: 0px;
+  }
+  
+  .code{
+    caret-color: transparent;
+    background-color: rgba(44, 40, 40, 0.6);
+    border-radius: 10px;
+    border: 1px solid #5a5858;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    width: 75px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+  }
+
+  .info{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    position: absolute;
+    left: 30vw;
+    top: 52vh;
+    margin: 2%;
+  }
+
+  strong{
+    color: purple;
+  }
+  
+  
+  .code::-webkit-outer-spin-button,
+  .code::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .code:valid {
+    border-color: #9861c2;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+  }
+  
+  .btn{
+    font-family: "Lato", sans-serif;
+    min-width: 400px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 50px 0px 20px 0px;
+    padding: 0.775rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    letter-spacing: 0.7;
+    font-weight: bold;
+  }
+  
+  .btn-primary{
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(248, 156, 69), rgb(246, 107, 197),rgb(144, 0, 255));
+    background-color: v;
+  }
+
+  .goBack{
+    color: white;
+    position: absolute;
+    bottom: 5vh;
+    left: 10vw;
+    text-decoration: none;
+  }
